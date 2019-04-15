@@ -1,6 +1,3 @@
-test/edt-result.out
-test/src/
-test/edt-project/
-test/workspace/
-test/*.json
+test/
 *.ospx
+.vscode/launch.json
