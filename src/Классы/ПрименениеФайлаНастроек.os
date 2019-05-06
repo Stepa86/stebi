@@ -209,7 +209,7 @@
 	
 	ruleId = пОшибка.ruleId;
 	message = пОшибка.primaryLocation.message;
-	filePath = пОшибка.primaryLocation.filePath;
+	filePath = ОбщегоНазначения.АбсолютныйПуть( пОшибка.primaryLocation.filePath );
 	
 	заголовокЛога = СтрШаблон( "ruleId: <%1>, message: <%2>, filePath: <%3>. Установлено ", 
 	ruleId,
