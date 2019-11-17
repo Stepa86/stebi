@@ -216,6 +216,19 @@
 	ruleId = пОшибка.ruleId;
 	message = пОшибка.primaryLocation.message;
 	filePath = ОбеспечитьПутьКФайлуСИсходнымКодом(пОшибка.primaryLocation.filePath);
+
+	Если Не filePath = пОшибка.primaryLocation.filePath Тогда
+		
+		естьИзменения = Истина;
+		пОшибка.primaryLocation.filePath = filePath;
+
+		Для каждого цВспомогательнаяСтрока Из пОшибка.secondaryLocations Цикл
+
+			цВспомогательнаяСтрока.filePath = ОбеспечитьПутьКФайлуСИсходнымКодом(цВспомогательнаяСтрока.filePath);
+
+		КонецЦикла;
+
+	КонецЕсли;
 	
 	заголовокЛога = СтрШаблон("ruleId: <%1>, message: <%2>, filePath: <%3>. Установлено ",
 			ruleId,
