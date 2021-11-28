@@ -1,8 +1,8 @@
 {
-    "rulespaces":[
-        "com.e1c.g5.v8.dt.bsl",
-        "com.e1c.v8codestyle"
-    ],
+    "rulespaces":{
+        "com.e1c.g5.v8.dt.bsl":"",
+        "com.e1c.v8codestyle":"style"
+    },
     "rulename":{        
         "com.e1c.g5.v8.dt.bsl.check:module-empty-method"                    :"Пустой метод",
         "com.e1c.g5.v8.dt.bsl.check:module-unused-local-variable"           :"Переменная не используется или не проинициализирована",
@@ -38,8 +38,8 @@
         "com.e1c.v8codestyle.ql:ql-join-to-sub-query"                       :"Соединение в запросе с подзапросом не разрешено",
         "com.e1c.v8codestyle.ql:ql-temp-table-index"                        :"Новая временная таблица должна содержать индексы",
         "com.e1c.v8codestyle.ql:ql-virtual-table-filters"                   :"Отбор для виртуальной таблицы должен быть в параметрах",
-        "com.e1c.v8codestyle.right:right-administration"                    :"Установлено право Администрирование для роли",
-        "com.e1c.v8codestyle.right:right-exclusive-mode"                    :"Право МонопольныйРежим роли установлено",
+        "com.e1c.v8codestyle.right:right-administration"                                    :"Право Администрирование для роли установлено",
+        "com.e1c.v8codestyle.right:right-exclusive-mode"                                    :"Право МонопольныйРежим роли установлено",
         "com.e1c.v8codestyle.right:right-interactive-clear-deletion-mark-predefined-data"   :"Право ИнтерактивноеСнятиеПометкиУдаленияПредопределенныхДанных роли установлено",
         "com.e1c.v8codestyle.right:right-interactive-delete"                                :"Право ИнтерактивноеУдаление роли установлено",
         "com.e1c.v8codestyle.right:right-interactive-delete-marked-predefined-data"         :"Право ИнтерактивноеУдалениеПомеченныхПредопределенныхДанных роли установлено",
