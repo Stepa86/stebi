@@ -32,7 +32,7 @@
         "com.e1c.v8codestyle.md:common-module-name-client": "Неверное имя клиентского общего модуля",
         "com.e1c.v8codestyle.md:common-module-name-client-server": "Неверное имя клиент-серверного общего модуля",
         "com.e1c.v8codestyle.md:common-module-type": "Общий модуль имеет некорректне настройки",
-        "com.e1c.v8codestyle.md:md-list-object-presentation": "Не заполнено ни представление объекта, ни представление списка",
+        "com.e1c.v8codestyle.md:md-list-object-presentation": "Не заполнено ни представление объекта_ ни представление списка",
         "com.e1c.v8codestyle.md:md-standard-attribute-synonym-empty": "Не задан синоним у стандартного свойства",
         "com.e1c.v8codestyle.md:mdo-name-length": "Длина имени объекта метаданного",
         "com.e1c.v8codestyle.md:mdo-scheduled-job-description": "Наименование регламентного задания",

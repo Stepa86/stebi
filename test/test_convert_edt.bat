@@ -1,1 +1,1 @@
-stebi convert -e "D:\Work\git_repo\stebi\test\edt-result.csv" "D:\Work\git_repo\stebi\test\edt.json" "D:\Work\git_repo\stebi\test\src"
+oscript ../src/main.os convert -e "E:\GIT_Repo\Stebi\test\edt-result_2021_2.csv" "E:\GIT_Repo\Stebi\test\edt_2021_2.json" "E:\GIT_Repo\Konstanta\FRESH\K2FRESH\src"
