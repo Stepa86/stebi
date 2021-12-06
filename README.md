@@ -8,12 +8,21 @@
 
 `stebi c ./edt-result.out ./edt-json.json ./src`
 
-`c` или `convert` - команда конвертации  
-`EDT_VALIDATION_RESULT` - Путь к файлу с результатом проверки edt. Например ./edt-result.out  
-`EDT_VALIDATION_JSON` - Путь к файлу результату. Например ./edt-json.json. Его нужно указать в `sonar-project.properties`.  
-`SRC` - Путь к каталогу с исходниками. Например ./src. Лучше указывать относительный путь. Абсолютный путь сонар может и не воспринять.  
+```bat
+Команда: c, convert
+ Конвертировать результат EDT в json для SonarQube 1C (BSL) Community Plugin
 
-Аргументы можно так же задать через одноименные параметры окружения.
+Строка запуска: stebi c [ОПЦИИ] EDT_VALIDATION_RESULT EDT_VALIDATION_JSON SRC
+
+Аргументы:
+  EDT_VALIDATION_RESULT         Путь к файлу с результатом проверки edt. Например ./edt-result.out (env $EDT_VALIDATION_RESULT)
+  EDT_VALIDATION_JSON           Путь к файлу результату. Например ./edt-json.json (env $EDT_VALIDATION_JSON)
+  SRC                           Путь к каталогу с исходниками. Например ./src (env $SRC)
+
+Опции:
+  -e, --ObjectErrors            Ошибки объектов назначать на первую строку модуля формы/объекта
+  -r, --UseRelativePaths        В файл результата записывать относительные пути
+```
 
 ## Пример настроек проекта Сонара
 
