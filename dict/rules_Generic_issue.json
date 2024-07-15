@@ -1,0 +1,2071 @@
+{
+    "rules": [
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:constructor-function-return-section",
+            "name": "Секция возвращаемого значения функции-конструктора данных",
+            "description": "Секция возвращаемого значения функции-конструктора данных",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-field-in-description-suggestion",
+            "name": "Многострочное описание документирующего комментария содержит определение поля",
+            "description": "Многострочное описание документирующего комментария содержит определение поля",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-parameter-in-description-suggestion",
+            "name": "Многострочное описание документирующего комментария содержит определение параметра",
+            "description": "Многострочное описание документирующего комментария содержит определение параметра",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:invocation-parameter-type-intersect",
+            "name": "Вызываемый тип пересекается с типом параметра",
+            "description": "Вызываемый тип пересекается с типом параметра",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:typed-value-adding-to-untyped-collection",
+            "name": "Добавление типизированного значения в не типизированную коллекцию",
+            "description": "Добавление типизированного значения в не типизированную коллекцию",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:structure-consructor-value-type",
+            "name": "Типизация значений в конструкторе структуры",
+            "description": "Типизация значений в конструкторе структуры",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-description-ends-on-dot",
+            "name": "Многострочное описание документирующего комментария оканчивается на точку",
+            "description": "Многострочное описание документирующего комментария оканчивается на точку",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-consecutive-blank-lines",
+            "name": "Проверка максимального количства пустых строк",
+            "description": "Проверка максимального количства пустых строк",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:dynamic-access-method-not-found",
+            "name": "Метод в объекте не найден",
+            "description": "Метод в объекте не найден",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:method-optional-parameter-before-required",
+            "name": "Необязательные параметры процедуры/функции расположены перед обязательными",
+            "description": "Необязательные параметры процедуры/функции расположены перед обязательными",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:method-param-value-type",
+            "name": "Параметр метода имеет тип",
+            "description": "Параметр метода имеет тип",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:variable-value-type",
+            "name": "Переменная имеет тип значения",
+            "description": "Переменная имеет тип значения",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-field-type-strict",
+            "name": "Поле документирующего комментария имеет описание типа",
+            "description": "Поле документирующего комментария имеет описание типа",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:invocation-form-event-handler",
+            "name": "Программный вызов обработчика события формы",
+            "description": "Программный вызов обработчика события формы",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:using-form-data-to-value",
+            "name": "Использование РеквизитФормыВЗначение и ДанныеФормыВЗначение",
+            "description": "Использование РеквизитФормыВЗначение и ДанныеФормыВЗначение",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:property-return-type",
+            "name": "Свойство объекта имеет тип возвращаемого значения",
+            "description": "Свойство объекта имеет тип возвращаемого значения",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:statement-type-change",
+            "name": "Утверждение меняет тип",
+            "description": "Утверждение меняет тип",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:function-return-value-type",
+            "name": "Функция возвращает типизированное значение",
+            "description": "Функция возвращает типизированное значение",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:query-in-loop",
+            "name": "Запрос в цикле",
+            "description": "Запрос в цикле",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:empty-except-statement",
+            "name": "Конструкция «Попытка...Исключение...КонецПопытки» не содержит кода в исключении",
+            "description": "Конструкция «Попытка...Исключение...КонецПопытки» не содержит кода в исключении",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-export-procedure-description-section",
+            "name": "Документирующий комментарий не содержит секцию «Описание» для экспортной процедуры (функции)",
+            "description": "Документирующий комментарий не содержит секцию «Описание» для экспортной процедуры (функции)",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-event-regions",
+            "name": "Раздел «Обработчики событий» содержит только методы являющиеся обработчиками событий",
+            "description": "Раздел «Обработчики событий» содержит только методы являющиеся обработчиками событий",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-return-section-type",
+            "name": "Секция возвращаемого значения документирующего комментария содержит корректные типы",
+            "description": "Секция возвращаемого значения документирующего комментария содержит корректные типы",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-returning-type-for-environment",
+            "name": "Возвращает тип , который имеет отличное окружение от контекста вызова",
+            "description": "Возвращает тип , который имеет отличное окружение от контекста вызова",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-for-each-statetement-collection",
+            "name": "Возможно, выражение не является объектом коллекции",
+            "description": "Возможно, выражение не является объектом коллекции",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-for-statements-after-return",
+            "name": "Возможно, недостижимое выражение",
+            "description": "Возможно, недостижимое выражение",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-unused-local-variable",
+            "name": "Проверка неиспользуемых локальных переменных",
+            "description": "Проверка неиспользуемых локальных переменных",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-string-literal",
+            "name": "Возможно, строковый литерал содержит ошибку",
+            "description": "Возможно, строковый литерал содержит ошибку",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:commit-transaction",
+            "name": "Проверка нарушения схемы работы с транзакциями",
+            "description": "Проверка нарушения схемы работы с транзакциями",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:rollback-transaction",
+            "name": "Проверка нарушения схемы работы с транзакциями",
+            "description": "Проверка нарушения схемы работы с транзакциями",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.md:md-legacy-check-missing-assignments",
+            "name": "Длина имени объекта должна быть менее 80 символов",
+            "description": "Длина имени объекта должна быть менее 80 символов",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:new-color",
+            "name": "Использование конструкции «Новый Цвет»",
+            "description": "Использование конструкции «Новый Цвет»",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:new-font",
+            "name": "Использование конструкции «Новый Шрифт»",
+            "description": "Использование конструкции «Новый Шрифт»",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.form:form-legacy-check-command-handler",
+            "name": "Для команды формы назначен обработчик , но метод с таким именем отсутствует в модуле формы",
+            "description": "Для команды формы назначен обработчик , но метод с таким именем отсутствует в модуле формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Конфигурация.МодульУправляемогоПриложения",
+            "name": "Конфигурация.МодульУправляемогоПриложения",
+            "description": "Конфигурация.МодульУправляемогоПриложения",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.form:form-legacy-check-event-handler",
+            "name": "Для события элемента формы назначен обработчик, но метод с таким именем отсутствует в модуле формы",
+            "description": "Для события элемента формы назначен обработчик, но метод с таким именем отсутствует в модуле формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.md:md-legacy-check-unique-md-object-name",
+            "name": "Дублирование объекта метаданных",
+            "description": "Дублирование объекта метаданных",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-top-region",
+            "name": "Стандартные области структуры модуля верхнего уровня",
+            "description": "Стандартные области структуры модуля верхнего уровня",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:mdo-scheduled-job-description",
+            "name": "style.md.Задано наименование предопределенного регламентного задания",
+            "description": "style.md.Задано наименование предопределенного регламентного задания",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-self-reference",
+            "name": "Избыточное использование псевдонима «ЭтотОбъект»",
+            "description": "Избыточное использование псевдонима «ЭтотОбъект»",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:common-module-named-self-reference",
+            "name": "Избыточное обращение по собственному имени внутри общего модуля",
+            "description": "Избыточное обращение по собственному имени внутри общего модуля",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-field-name",
+            "name": "Поле документирующего комментария является корректным именем",
+            "description": "Поле документирующего комментария является корректным именем",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:mdo-ru-name-unallowed-letter",
+            "name": "style.md.Проверка наличия буквы «ё» в имени, синониме или комментарии объекта метаданных",
+            "description": "style.md.Проверка наличия буквы «ё» в имени, синониме или комментарии объекта метаданных",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-item-visible-settings-by-roles",
+            "name": "style.form.Использована ролевая настройка видимости (редактирования, использования) для элемента формы",
+            "description": "style.form.Использована ролевая настройка видимости (редактирования, использования) для элемента формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:use-non-recommended-method",
+            "name": "Использование не рекомендуемых методов",
+            "description": "Использование не рекомендуемых методов",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:using-isinrole",
+            "name": "Использован метод «РольДоступна»",
+            "description": "Использован метод «РольДоступна»",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-init-code-in-region",
+            "name": "Раздел инициализации содержит код инициализации",
+            "description": "Раздел инициализации содержит код инициализации",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:structure-consructor-too-many-keys",
+            "name": "Конструктор структуры содержит слишком много ключей",
+            "description": "Конструктор структуры содержит слишком много ключей",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:begin-transaction",
+            "name": "После начала транзакции отсуствует блок Попытка-Исключение",
+            "description": "После начала транзакции отсуствует блок Попытка-Исключение",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-method-in-regions",
+            "name": "Проверяет что метод находится в области",
+            "description": "Проверяет что метод находится в области",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-form-event-regions",
+            "name": "Проверяет регион обработчиков событий формы",
+            "description": "Проверяет регион обработчиков событий формы",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:lock-out-of-try",
+            "name": "Вызов «Заблокировать()» находится вне попытки",
+            "description": "Вызов «Заблокировать()» находится вне попытки",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-accessibility-at-client",
+            "name": "Метод или переменная доступны НаКлиенте",
+            "description": "Метод или переменная доступны НаКлиенте",
+            "cleanCodeAttribute": "MODULAR",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:method-too-many-params",
+            "name": "Метод содержит слишком много параметров",
+            "description": "Метод содержит слишком много параметров",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-dynamic-feature-access",
+            "name": "Метод устарел",
+            "description": "Метод устарел",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-deprecated-method",
+            "name": "Метод устарел",
+            "description": "Метод устарел",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:bsl-nstr-string-literal-format",
+            "name": "НСтр формат строкового литерала",
+            "description": "НСтр формат строкового литерала",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-constants-in-binary-operation",
+            "name": "style.ql.В запросе в бинарной операции используются константные значения или параметры.",
+            "description": "style.ql.В запросе в бинарной операции используются константные значения или параметры.",
+            "cleanCodeAttribute": "MODULAR",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:md-standard-attribute-synonym-empty",
+            "name": "style.md.Не задан синоним стандартного реквизита «Родитель» или «Владелец».",
+            "description": "style.md.Не задан синоним стандартного реквизита «Родитель» или «Владелец».",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-dynamic-list-item-title",
+            "name": "style.form.Пустой заголовок для колонок динамического списка",
+            "description": "style.form.Пустой заголовок для колонок динамического списка",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:md-list-object-presentation",
+            "name": "style.md.Не заполнено ни представление объекта, ни представление списка",
+            "description": "style.md.Не заполнено ни представление объекта, ни представление списка",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:object-module-export-variable",
+            "name": "Использование переменных в программных модулях",
+            "description": "Использование переменных в программных модулях",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:public-method-caching",
+            "name": "Проверка кэширования программного интерфейса",
+            "description": "Проверка кэширования программного интерфейса",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.md:md-legacy-check-subsystem",
+            "name": "Не рекомендуется создавать подсистемы глубиной вложенности более трех",
+            "description": "Не рекомендуется создавать подсистемы глубиной вложенности более трех",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:export-method-in-command-form-module",
+            "name": "Ограничения на использование экспортных процедур и функций в модуле команд и форм",
+            "description": "Ограничения на использование экспортных процедур и функций в модуле команд и форм",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:unsafe-password-ib-storage",
+            "name": "style.md.Небезопасное хранение паролей в информационной базе",
+            "description": "style.md.Небезопасное хранение паролей в информационной базе",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-type",
+            "name": "Определение типа документирующего комментария",
+            "description": "Определение типа документирующего комментария",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-unused-method",
+            "name": "Проверка неиспользуемых методов",
+            "description": "Проверка неиспользуемых методов",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-expression-type",
+            "name": "Нельзя передавать объект между клиентом и сервером",
+            "description": "Нельзя передавать объект между клиентом и сервером",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-form-attribute-properaty-assign",
+            "name": "Нельзя присваивать атрибуту формы значение типа",
+            "description": "Нельзя присваивать атрибуту формы значение типа",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-region-empty",
+            "name": "Область пустая",
+            "description": "Область пустая",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:unknown-form-parameter-access",
+            "name": "Обращение к несуществующему параметру формы",
+            "description": "Обращение к несуществующему параметру формы",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:optional-form-parameter-access",
+            "name": "Обращение к опциональному параметру формы",
+            "description": "Обращение к опциональному параметру формы",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-server-call",
+            "name": "style.md.Общий модуль, для которого предусмотрен вызов сервера",
+            "description": "style.md.Общий модуль, для которого предусмотрен вызов сервера",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-client-cached",
+            "name": "style.md.Клиентский общий модуль с повторно используемыми значениями",
+            "description": "style.md.Клиентский общий модуль с повторно используемыми значениями",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-cached",
+            "name": "style.md.Общий модуль с повторно используемыми значениями",
+            "description": "style.md.Общий модуль с повторно используемыми значениями",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-type-in-operator-new",
+            "name": "Объект данного тип не может быть создан через оператор 'Новый'",
+            "description": "Объект данного тип не может быть создан через оператор 'Новый'",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:md-object-attribute-comment-not-exist",
+            "name": "style.md.Документ не имеет реквизита «Комментарий»",
+            "description": "style.md.Документ не имеет реквизита «Комментарий»",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-structure-var-in-region",
+            "name": "Раздел описания переменных",
+            "description": "Раздел описания переменных",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-environments-for-emty",
+            "name": "Окружение не установленно",
+            "description": "Окружение не установленно",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-procedure-return-section",
+            "name": "Документирующий комментарий содежрит секцию возвращаемого значения для процедуры",
+            "description": "Документирующий комментарий содежрит секцию возвращаемого значения для процедуры",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-export-function-return-section",
+            "name": "Секция возвращаемого значения документирующего комментария для экспортной функции",
+            "description": "Секция возвращаемого значения документирующего комментария для экспортной функции",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:export-procedure-missing-comment",
+            "name": "Отсутствует комментарий к экспортной процедуре (функции)",
+            "description": "Отсутствует комментарий к экспортной процедуре (функции)",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:missing-temporary-file-deletion",
+            "name": "Отсутствует удаление временного файла после использования.",
+            "description": "Отсутствует удаление временного файла после использования.",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:event-heandler-boolean-param",
+            "name": "Использование булевого параметра обработчика события",
+            "description": "Использование булевого параметра обработчика события",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-field-type",
+            "name": "Поле документирующего комментария не имеет определения типа",
+            "description": "Поле документирующего комментария не имеет определения типа",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-complex-type-with-link",
+            "name": "Поле документирующего комментария использует объявление сложного типа вместо ссылки на тип",
+            "description": "Поле документирующего комментария использует объявление сложного типа вместо ссылки на тип",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.md:md-legacy-check-choice-parameter-link",
+            "name": "Поле связи параметра выбора не указано или некорректно",
+            "description": "Поле связи параметра выбора не указано или некорректно",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:reading-attribute-from-database",
+            "name": "Чтение отдельного реквизита объекта из базы данных",
+            "description": "Чтение отдельного реквизита объекта из базы данных",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:form-module-missing-pragma",
+            "name": "Всегда использовать директивы компиляции в модуле формы",
+            "description": "Всегда использовать директивы компиляции в модуле формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-parameter-section",
+            "name": "В секции параметров документирующего комментария пропущено определение параметра",
+            "description": "В секции параметров документирующего комментария пропущено определение параметра",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:module-empty-method",
+            "name": "Проверка пустых методов",
+            "description": "Проверка пустых методов",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:md-object-attribute-comment-incorrect-type",
+            "name": "style.md.Реквизит «Комментарий» у документов",
+            "description": "style.md.Реквизит «Комментарий» у документов",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-list-field-ref-not-added",
+            "name": "style.form.Реквизит «Ссылка» динамического списка не выведен в таблицу на форме",
+            "description": "style.form.Реквизит «Ссылка» динамического списка не выведен в таблицу на форме",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:data-composition-conditional-appearance-use",
+            "name": "style.form.Условное оформление в формах",
+            "description": "style.form.Условное оформление в формах",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-static-feature-access-for-unknown-left-part",
+            "name": "Свойство (метод) объекта не обнаружено",
+            "description": "Свойство (метод) объекта не обнаружено",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.g5.v8.dt.form.check:dcs-ql-hub",
+            "name": "Синтаксическая ошибка. Недопустимая лексема в данном контексте",
+            "description": "Синтаксическая ошибка. Недопустимая лексема в данном контексте",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:form-self-reference",
+            "name": "Использование устаревшего псевдонима",
+            "description": "Использование устаревшего псевдонима",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-ref-link",
+            "name": "Ссылка документирующего комментария на существующий объект",
+            "description": "Ссылка документирующего комментария на существующий объект",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-camel-case-string-literal",
+            "name": "style.ql.Строковый литерал в запросе содержит не КемелКейс контент",
+            "description": "style.ql.Строковый литерал в запросе содержит не КемелКейс контент",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-collection-item-type",
+            "name": "Тип коллекций в документирующем комментарии содержит тип элемента коллекции",
+            "description": "Тип коллекций в документирующем комментарии содержит тип элемента коллекции",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-use-minus",
+            "name": "Использование только дефис-минуса в документирующем комментарии",
+            "description": "Использование только дефис-минуса в документирующем комментарии",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:input-field-list-choice-mode",
+            "name": "style.form.В полях форм со списками выбора следует всегда устанавливать свойство **РежимВыбораИзСписка** в значение Истина",
+            "description": "style.form.В полях форм со списками выбора следует всегда устанавливать свойство **РежимВыбораИзСписка** в значение Истина",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-list-ref-use-always-flag-disabled",
+            "name": "style.form.У реквизита «Ссылка» динамического списка выключен признак «Использовать всегда»",
+            "description": "style.form.У реквизита «Ссылка» динамического списка выключен признак «Использовать всегда»",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:doc-comment-redundant-parameter-section",
+            "name": "Секция параметров документирующего комментария избыточная",
+            "description": "Секция параметров документирующего комментария избыточная",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:deprecated-procedure-outside-deprecated-region",
+            "name": "Устаревшая процедура (функция) расположена вне области «УстаревшиеПроцедурыИФункции»",
+            "description": "Устаревшая процедура (функция) расположена вне области «УстаревшиеПроцедурыИФункции»",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-the-same-global-element-name-for-module-variable",
+            "name": "Элемент с таким именем уже есть в глобальном контексте",
+            "description": "Элемент с таким именем уже есть в глобальном контексте",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.md:md-legacy-check-type-description-types",
+            "name": "Этот тип не может входить в состав составного типа",
+            "description": "Этот тип не может входить в состав составного типа",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "LOW"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.g5.dt.core.legacy:form-legacy-emf-check",
+            "name": "The value must be greater than zero",
+            "description": "The value must be greater than zero",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-cast-to-max-number",
+            "name": "style.ql.Выражение к максимальному числу в запросе",
+            "description": "style.ql.Выражение к максимальному числу в запросе",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:db-object-anyref-type",
+            "name": "style.md.Реквизиты составного типа, такие как ЛюбаяСсылка и аналогичные",
+            "description": "style.md.Реквизиты составного типа, такие как ЛюбаяСсылка и аналогичные",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.dt.check.form:form-invalid-item-id",
+            "name": "Правильность идентификаторов элементов формы",
+            "description": "Правильность идентификаторов элементов формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:use-goto-operator",
+            "name": "Используется оператор Перейти",
+            "description": "Используется оператор Перейти",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:form-module-pragma",
+            "name": "Использование директив компиляции модуля формы",
+            "description": "Использование директив компиляции модуля формы",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-if-preprocessor-part-environments",
+            "name": "Код никогда не будет скомпилирован",
+            "description": "Код никогда не будет скомпилирован",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-static-feature-access",
+            "name": "Метод устарел",
+            "description": "Метод устарел",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-simple-statement",
+            "name": "Неизвестный оператор",
+            "description": "Неизвестный оператор",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.g5.dt.core.legacy:md-legacy-emf-check",
+            "name": "Некорректное значение свойства",
+            "description": "Некорректное значение свойства",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:structure-key-modification",
+            "name": "Модификация ключа структуры вне функции-конструктора",
+            "description": "Модификация ключа структуры вне функции-конструктора",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-execute-statement",
+            "name": "Неподдерживаемый оператор",
+            "description": "Неподдерживаемый оператор",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-temp-table-index",
+            "name": "style.ql.Временная таблица должна содержать индексы",
+            "description": "style.ql.Временная таблица должна содержать индексы",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-commands-single-action-handler",
+            "name": "style.form.У каждого действия команды должна быть назначена своя процедура-обработчик",
+            "description": "style.form.У каждого действия команды должна быть назначена своя процедура-обработчик",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-items-single-event-handler",
+            "name": "style.form.У каждого события должна быть назначена своя процедура-обработчик",
+            "description": "style.form.У каждого события должна быть назначена своя процедура-обработчик",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-type",
+            "name": "style.md.Общий модуль имеет некорректный тип",
+            "description": "style.md.Общий модуль имеет некорректный тип",
+            "cleanCodeAttribute": "FORMATTED",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:notify-description-to-server-procedure",
+            "name": "Описание оповещения на серверную процедуру",
+            "description": "Описание оповещения на серверную процедуру",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-virtual-table-filters",
+            "name": "style.ql.Отбор виртуальной таблицы должен быть в параметрах",
+            "description": "style.ql.Отбор виртуальной таблицы должен быть в параметрах",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:server-execution-safe-mode",
+            "name": "Отсутствует включение безопасного режима перед вызовом метода «Выполнить» или «Вычислить»",
+            "description": "Отсутствует включение безопасного режима перед вызовом метода «Выполнить» или «Вычислить»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.bsl:data-exchange-load",
+            "name": "Проверка ОбменДанными.Загрузка в обработчике события",
+            "description": "Проверка ОбменДанными.Загрузка в обработчике события",
+            "cleanCodeAttribute": "MODULAR",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:scheduled-job-periodicity-too-short",
+            "name": "style.md.Периодичность выполнения регламентного задания меньше одной минуты.",
+            "description": "style.md.Периодичность выполнения регламентного задания меньше одной минуты.",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-administration",
+            "name": "style.right.Право установлено: Администрирование",
+            "description": "style.right.Право установлено: Администрирование",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-data-administration",
+            "name": "style.right.Право установлено: Администрирование данных",
+            "description": "style.right.Право установлено: Администрирование данных",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-start-web-client",
+            "name": "style.right.Право установлено: Веб-клиент",
+            "description": "style.right.Право установлено: Веб-клиент",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-output-to-printer-file-clipboard",
+            "name": "style.right.Право установлено: Вывод",
+            "description": "style.right.Право установлено: Вывод",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-interactive-set-deletion-mark-predefined-data",
+            "name": "style.right.Установлено право «ИнтерактивноеПометкаУдаленияПредопределенныхДанных»",
+            "description": "style.right.Установлено право «ИнтерактивноеПометкаУдаленияПредопределенныхДанных»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-interactive-clear-deletion-mark-predefined-data",
+            "name": "style.right.Установлено право «ИнтерактивноеСнятиеПометкиУдаленияПредопределенныхДанных»",
+            "description": "style.right.Установлено право «ИнтерактивноеСнятиеПометкиУдаленияПредопределенныхДанных»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-interactive-delete",
+            "name": "style.right.Установлено право «ИнтерактивноеУдаление»",
+            "description": "style.right.Установлено право «ИнтерактивноеУдаление»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-interactive-delete-marked-predefined-data",
+            "name": "style.right.Установлено право «ИнтерактивноеУдалениеПомеченныхПредопределенныхДанных»",
+            "description": "style.right.Установлено право «ИнтерактивноеУдалениеПомеченныхПредопределенныхДанных»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-interactive-delete-predefined-data",
+            "name": "style.right.Установлено право «ИнтерактивноеУдалениеПредопределенныхДанных»",
+            "description": "style.right.Установлено право «ИнтерактивноеУдалениеПредопределенныхДанных»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-exclusive-mode",
+            "name": "style.right.Право установлено: Монопольный режим",
+            "description": "style.right.Право установлено: Монопольный режим",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-save-user-data",
+            "name": "style.right.Право установлено: Сохранение данных пользователя",
+            "description": "style.right.Право установлено: Сохранение данных пользователя",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-start-thin-client",
+            "name": "style.right.Право установлено: Тонкий клиент",
+            "description": "style.right.Право установлено: Тонкий клиент",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.right:right-delete",
+            "name": "style.right.Установлено право «Удаление»",
+            "description": "style.right.Установлено право «Удаление»",
+            "cleanCodeAttribute": "TRUSTWORTHY",
+            "impacts": [
+                {
+                    "softwareQuality": "SECURITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-method-names-are-unique",
+            "name": "Процедура или функция с таким именем уже определена",
+            "description": "Процедура или функция с таким именем уже определена",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:db-object-ref-non-ref-type",
+            "name": "style.md.Реквизиты составного типа",
+            "description": "style.md.Реквизиты составного типа",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.dt.check.form:form-data-path",
+            "name": "Путь к данным объекта формы ссылается на существующий объект в каждом сегменте пути",
+            "description": "Путь к данным объекта формы ссылается на существующий объект в каждом сегменте пути",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.ql:ql-join-to-sub-query",
+            "name": "style.ql.Соединение запроса с подзапросом",
+            "description": "style.ql.Соединение запроса с подзапросом",
+            "cleanCodeAttribute": "EFFICIENT",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com._1c.g5.v8.dt.bsl:bsl-legacy-check-type-environments",
+            "name": "Тип неопределен",
+            "description": "Тип неопределен",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.form:form-list-ref-user-visibility-enabled",
+            "name": "style.form.У поля «Ссылка» таблицы динамического списка не отключена пользовательская видимость",
+            "description": "style.form.У поля «Ссылка» таблицы динамического списка не отключена пользовательская видимость",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.dt.check.md:md-reference-intergrity",
+            "name": "Проверка целостности ссылок объектов метаданных",
+            "description": "Проверка целостности ссылок объектов метаданных",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-client-server",
+            "name": "style.md.Клиент-серверный общий модуль должен оканчиваться на суффикс КлиентСервер",
+            "description": "style.md.Клиент-серверный общий модуль должен оканчиваться на суффикс КлиентСервер",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-global-client",
+            "name": "style.md.Глобальный клиентский общий модуль должен оканчиваться на суффикс Глобальный без суффикса Клиент",
+            "description": "style.md.Глобальный клиентский общий модуль должен оканчиваться на суффикс Глобальный без суффикса Клиент",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:common-module-name-full-access",
+            "name": "style.md.Привилегированный общий модуль должен оканчиваться на суффикс ПолныеПрава",
+            "description": "style.md.Привилегированный общий модуль должен оканчиваться на суффикс ПолныеПрава",
+            "cleanCodeAttribute": "CONVENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "com.e1c.v8codestyle.md:mdo-name-length",
+            "name": "style.md.Длина имени объекта метаданных",
+            "description": "style.md.Длина имени объекта метаданных",
+            "cleanCodeAttribute": "MODULAR",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Переменная %1 не определена",
+            "name": "Переменная %1 не определена",
+            "description": "Переменная %1 не определена",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Процедура или функция %1 не определена",
+            "name": "Процедура или функция %1 не определена",
+            "description": "Процедура или функция %1 не определена",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Синтаксическая ошибка. Неверный ввод %1 - ожидается %1",
+            "name": "Синтаксическая ошибка. Неверный ввод %1 - ожидается %1",
+            "description": "Синтаксическая ошибка. Неверный ввод %1 - ожидается %1",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Синтаксическая ошибка. Недопустимая лексема %1 в данном контексте",
+            "name": "Синтаксическая ошибка. Недопустимая лексема %1 в данном контексте",
+            "description": "Синтаксическая ошибка. Недопустимая лексема %1 в данном контексте",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Синтаксическая ошибка. Пропущена лексема %1 у %1",
+            "name": "Синтаксическая ошибка. Пропущена лексема %1 у %1",
+            "description": "Синтаксическая ошибка. Пропущена лексема %1 у %1",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        },
+        {
+            "engineId": "edt",
+            "id": "Функция %1 не определена",
+            "name": "Функция %1 не определена",
+            "description": "Функция %1 не определена",
+            "cleanCodeAttribute": "LOGICAL",
+            "impacts": [
+                {
+                    "softwareQuality": "RELIABILITY",
+                    "severity": "MEDIUM"
+                }
+            ]
+        }
+    ]
+}

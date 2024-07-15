@@ -10,19 +10,24 @@
 
 ```bat
 Команда: c, convert
- Конвертировать результат EDT в json для SonarQube 1C (BSL) Community Plugin
+ Конвертировать результат проверки проекта 1С:EDT из .tsv-файл в выбранный формат
 
 Строка запуска: stebi c [ОПЦИИ] EDT_VALIDATION_RESULT EDT_VALIDATION_JSON SRC
 
 Аргументы:
   EDT_VALIDATION_RESULT         Путь к файлу с результатом проверки edt. Например ./edt-result.out (env $EDT_VALIDATION_RESULT)
   EDT_VALIDATION_JSON           Путь к файлу результату. Например ./edt-json.json (env $EDT_VALIDATION_JSON)
-  SRC                           Путь к каталогу с исходниками. Например ./src (env $SRC)
+  SRC                           Путь к каталогам с исходниками. Можно указать несколько, если результат проверки содержит несколько проектов.
+                Пример для одного проекта: `project/src`.
+                Пример для несколькоих проектов `project1/src, project2/src` (env $SRC)
 
 Опции:
   -e, --ObjectErrors            Ошибки объектов назначать на первую строку модуля формы/объекта
   -r, --UseRelativePaths        В файл результата записывать относительные пути
-  -f, --Format                  Формат отчета для загрузки в sonarqube
+  -f, --format                  Формат отчета (по умолчанию Generic_Issue)
+                             Generic_Issue: Формат Generic issue для SonarQube версии 10.2-. Подробнее: https://docs.sonarsource.com/sonarqube/10.2/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+                             Generic_Issue_10_3: Формат Generic issue для SonarQube версии 10.3+. Подробнее: https://docs.sonarsource.com/sonarqube/10.3/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+  -d, --debug                   Режим отладки
 ```
 
 ## Пример настроек проекта Сонара
