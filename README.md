@@ -51,8 +51,22 @@ sonar.externalIssuesReportPaths=edt-json.json,acc-generic-issue.json,bsl-generic
 ### Файл настроек
 
 Для создания файла используется команда `p` или `prepare`.  
-`GENERIC_ISSUE_SETTINGS_JSON` - Путь к файлу настроек. Если файл существует, то он будет обновлен.  
-`GENERIC_ISSUE_JSON` - Путь к файлам generic-issue.json, на основе которых будет создан файл настроек.
+
+```bat
+Команда: p, prepare
+ Подготовить файл настроек
+
+Строка запуска: stebi p [ОПЦИИ] GENERIC_ISSUE_SETTINGS_JSON GENERIC_ISSUE_JSON
+
+Аргументы:
+  GENERIC_ISSUE_SETTINGS_JSON   Путь к файлу настроек. Если файл существует, то он будет обновлен. Например ./generic-issue-settings.json (env $GENERIC_ISSUE_SETTINGS_JSON)
+  GENERIC_ISSUE_JSON            Путь к файлам generic-issue.json, на основе которых будет создан файл настроек. Например ./edt-json.json,./acc-generic-issue.json (env $GENERIC_ISSUE_JSON)
+
+Опции:
+  -f, --Format  Формат отчета (по умолчанию Generic_Issue)
+                   Generic_Issue: Формат Generic issue для SonarQube версии 10.2-. Подробнее: https://docs.sonarsource.com/sonarqube/10.2/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+                   Generic_Issue_10_3: Формат Generic issue для SonarQube версии 10.3+. Подробнее: https://docs.sonarsource.com/sonarqube/10.3/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+```
 
 Пример команды `stebi prepare ./test/settigs.json ./test/acc-generic-issue.json,./test/edt-json.json`
 
