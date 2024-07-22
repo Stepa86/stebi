@@ -1,8 +1,31 @@
 {
-    "diagnosticLanguage": "ru",
+    "$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json",
+    "language": "ru",
     "diagnostics": {
-        "LineLength": {
-            "maxLineLength": 140
+        "computeTrigger": "onType",
+        "parameters": {
+            "LineLength": {
+                "maxLineLength": 140
+            },
+            "TernaryOperatorUsage": true,
+            "FunctionNameStartsWithGet": true,
+            "TooManyReturns": true,
+            "UsingLikeInQuery": true,
+            "CodeAfterAsyncCall": true,
+            "FieldsFromJoinsWithoutIsNull": true,
+            "MissingTempStorageDeletion": true,
+            "MagicNumber": {
+                "authorizedNumbers": "-1,0,1,100"
+            },
+            "IncorrectLineBreak": {
+                "checkFirstSymbol": true,
+                "listOfIncorrectFirstSymbol": "\\)|;|\\);",
+                "checkLastSymbol": true,
+                "listOfIncorrectLastSymbol": "ИЛИ|И|OR|AND|\\+|-|/|%|\\*"
+            },
+            "UsingServiceTag": {
+                "serviceTags": "todo|fixme|!!|mrg|@(?!strict-types|skip-check)|отладка|debug|для\\s*отладки|(\\{\\{|\\}\\})КОНСТРУКТОР_|(\\{\\{|\\}\\})MRG|Вставить\\s*содержимое\\s*обработчика|Paste\\s*handler\\s*content|Insert\\s*handler\\s*code|Insert\\s*handler\\s*content|Insert\\s*handler\\s*contents"
+            }
         }
     }
 }

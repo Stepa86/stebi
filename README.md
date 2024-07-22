@@ -1,5 +1,7 @@
 # Sonar Transform External Bsl Issues
 
+[![OpenYellow](https://img.shields.io/endpoint?url=https://openyellow.neocities.org/badges/2/230765834.json)](https://openyellow.notion.site/openyellow/24727888daa641af95514b46bee4d6f2?p=1faefbc7324e4d9abfe5cf63902878a4&amp;pm=s)
+
 Экспорт диагностик 1С: EDT для SonarQube 1C (BSL) Community Plugin.
 Трансформация диагностик: изменение параметров, удаление файлов на поддержке, удаление неактуальных диагностик.
 Получение версии конфигурации.
@@ -10,18 +12,24 @@
 
 ```bat
 Команда: c, convert
- Конвертировать результат EDT в json для SonarQube 1C (BSL) Community Plugin
+ Конвертировать результат проверки проекта 1С:EDT из .tsv-файл в выбранный формат
 
 Строка запуска: stebi c [ОПЦИИ] EDT_VALIDATION_RESULT EDT_VALIDATION_JSON SRC
 
 Аргументы:
   EDT_VALIDATION_RESULT         Путь к файлу с результатом проверки edt. Например ./edt-result.out (env $EDT_VALIDATION_RESULT)
   EDT_VALIDATION_JSON           Путь к файлу результату. Например ./edt-json.json (env $EDT_VALIDATION_JSON)
-  SRC                           Путь к каталогу с исходниками. Например ./src (env $SRC)
+  SRC                           Путь к каталогам с исходниками. Можно указать несколько, если результат проверки содержит несколько проектов.
+                Пример для одного проекта: `project/src`.
+                Пример для несколькоих проектов `project1/src, project2/src` (env $SRC)
 
 Опции:
   -e, --ObjectErrors            Ошибки объектов назначать на первую строку модуля формы/объекта
   -r, --UseRelativePaths        В файл результата записывать относительные пути
+  -f, --Format                  Формат отчета (env $STEBI_REPORT_FORMAT) (по умолчанию Generic_Issue)
+                             Generic_Issue: Формат Generic issue для SonarQube версии 10.2-. Подробнее: https://docs.sonarsource.com/sonarqube/10.2/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+                             Generic_Issue_10_3: Формат Generic issue для SonarQube версии 10.3+. Подробнее: https://docs.sonarsource.com/sonarqube/10.3/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+  -d, --debug                   Режим отладки
 ```
 
 ## Пример настроек проекта Сонара
@@ -45,8 +53,23 @@ sonar.externalIssuesReportPaths=edt-json.json,acc-generic-issue.json,bsl-generic
 ### Файл настроек
 
 Для создания файла используется команда `p` или `prepare`.  
-`GENERIC_ISSUE_SETTINGS_JSON` - Путь к файлу настроек. Если файл существует, то он будет обновлен.  
-`GENERIC_ISSUE_JSON` - Путь к файлам generic-issue.json, на основе которых будет создан файл настроек.
+
+```bat
+Команда: p, prepare
+ Подготовить файл настроек
+
+Строка запуска: stebi p [ОПЦИИ] GENERIC_ISSUE_SETTINGS_JSON GENERIC_ISSUE_JSON
+
+Аргументы:
+  GENERIC_ISSUE_SETTINGS_JSON   Путь к файлу настроек. Если файл существует, то он будет обновлен. Например ./generic-issue-settings.json (env $GENERIC_ISSUE_SETTINGS_JSON)
+  GENERIC_ISSUE_JSON            Путь к файлам generic-issue.json, на основе которых будет создан файл настроек. Например ./edt-json.json,./acc-generic-issue.json (env $GENERIC_ISSUE_JSON)
+
+Опции:
+  -f, --Format  Формат отчета (env $STEBI_REPORT_FORMAT) (по умолчанию Generic_Issue)
+                   Generic_Issue: Формат Generic issue для SonarQube версии 10.2-. Подробнее: https://docs.sonarsource.com/sonarqube/10.2/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+                   Generic_Issue_10_3: Формат Generic issue для SonarQube версии 10.3+. Подробнее: https://docs.sonarsource.com/sonarqube/10.3/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+  -d, --debug   Режим отладки
+```
 
 Пример команды `stebi prepare ./test/settigs.json ./test/acc-generic-issue.json,./test/edt-json.json`
 
@@ -78,16 +101,30 @@ sonar.externalIssuesReportPaths=edt-json.json,acc-generic-issue.json,bsl-generic
 
 Для применения файла настроек к файлам используется команда `t` или `transform`.
 
-Аргумент `GENERIC_ISSUE_JSON` - путь к отчетам через запятую. Может быть задан через переменную окружения.
+```bat
+Команда: t, transform
+ Применить файл настроек к generic-issue.json
 
-Опция `s settings` - путь к файлу настроек. Может быть задан через переменную окружения `GENERIC_ISSUE_SETTINGS_JSON`.
+Строка запуска: stebi t [ОПЦИИ] GENERIC_ISSUE_JSON
 
-Опция `src` - путь к каталогу исходных файлов. Используется для получения информации о поддержке.
+Аргументы:
+  GENERIC_ISSUE_JSON    Путь к файлам generic-issue.json, на основе которых будет создан файл настроек. Например ./edt-json.json,./acc-generic-issue.json (env $GENERIC_ISSUE_JSON)
 
-Опция `r remove_support` - уровень удаляемой поддержки.  
-    0 - удалить файлы на замке,  
-	1 - удалить файлы на замке и на поддержке  
-	2 - удалить файлы на замке, на поддержке и снятые с поддержки  
+Опции:
+  -s, --settings                Путь к файлу настроек. Например -s=./generic-issue-settings.json (env $GENERIC_ISSUE_SETTINGS_JSON)
+      --src                     Путь к каталогу с исходниками. Например -src=./src (env $SRC)
+  -r, --remove_support          Удаляет из отчетов файлы на поддержке. Например -r=0
+                0 - удалить файлы на замке,
+                1 - удалить файлы на замке и на поддержке
+                2 - удалить файлы на замке, на поддержке и снятые с поддержки (env $GENERIC_ISSUE_REMOVE_SUPPORT)
+      --filter_by_subsystem     Фильтр по подсистеме в формате [+/-]Подсистема1.Подсистема2[*][^].
+                Например, исключение подсистем СтандартныеПодсистемы и ПодключаемоеОборудование и всех дочерних объектов
+                        '-СтандартныеПодсистемы*, -ПодключаемоеОборудование*' (env $GENERIC_ISSUE_FILTER_BY_SUBSYSTEM)
+  -f, --Format                  Формат отчета (env $STEBI_REPORT_FORMAT) (по умолчанию Generic_Issue)
+                                Generic_Issue: Формат Generic issue для SonarQube версии 10.2-. Подробнее: https://docs.sonarsource.com/sonarqube/10.2/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+                                Generic_Issue_10_3: Формат Generic issue для SonarQube версии 10.3+. Подробнее: https://docs.sonarsource.com/sonarqube/10.3/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+  -d, --debug                   Режим отладки
+```
 
 Пример команды:
 
@@ -99,4 +136,16 @@ sonar.externalIssuesReportPaths=edt-json.json,acc-generic-issue.json,bsl-generic
 @call stebi convert "%1temp\edt-result.out" "%1edt-json.json" 
 
 @call stebi transform -r=1
+```
+
+## Вывод версии конфигурации
+
+```bat
+Команда: g, get_version
+ Выводит версию конфигурации
+
+Строка запуска: stebi g [ОПЦИИ]
+
+Опции:
+      --src     Путь к каталогу с исходниками. Например --src=./src (env $SRC)
 ```
