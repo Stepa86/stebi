@@ -18,16 +18,16 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        oscript_version: ['1.8.3']
+        oscript_version: ['lts']
         
     steps:
       # Загрузка проекта
       - name: Актуализация
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5.0.0
 
       # Установка OneScript конкретной версии
       - name: Установка OneScript
-        uses: otymko/setup-onescript@v1.1
+        uses: otymko/setup-onescript@v1.5.1
         with:
           version: ${{ matrix.oscript_version }}
 
@@ -41,7 +41,7 @@ jobs:
         run: opm build
 
       - name: Заливка артефактов
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: package.zip
           path: ./${{ env.PACKAGE_MASK }}
